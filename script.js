@@ -1,5 +1,5 @@
 const typedTextEl = document.getElementById("typed-text");
-const words = ["beautiful interfaces", "responsive experiences", "clean frontend code"];
+const words = ["Learning fast, building boldly, and growing into the developer I’m meant to be."];
 
 let wordIndex = 0;
 let charIndex = 0;

@@ -324,10 +324,30 @@ a {
   color: var(--muted);
 }
 
+.project-meta {
+  font-size: 0.92rem;
+  color: #f5c5de;
+}
+
 .project-card a {
   color: var(--pink-soft);
   font-weight: 700;
   text-decoration: none;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.project-note {
+  font-size: 0.88rem;
+  color: #efbdd6;
+  border: 1px dashed rgba(255, 118, 191, 0.55);
+  border-radius: 999px;
+  padding: 4px 10px;
 }
 
 .project-card a:hover,
@@ -335,9 +355,98 @@ a {
   text-decoration: underline;
 }
 
+.case-studies {
+  padding-top: clamp(1.5rem, 4vw, 2.8rem);
+}
+
+.case-study-grid {
+  margin-top: 1.4rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.case-study-card {
+  background:
+    linear-gradient(160deg, rgba(14, 8, 20, 0.96), rgba(10, 7, 12, 0.96)),
+    radial-gradient(circle at 85% 8%, rgba(255, 118, 191, 0.14), transparent 42%);
+  border: 1px solid rgba(255, 118, 191, 0.42);
+  border-radius: 20px;
+  padding: 1.2rem;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3);
+}
+
+.case-study-number {
+  margin: 0;
+  color: var(--pink-soft);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.case-study-badge {
+  display: inline-flex;
+  align-items: center;
+  margin: 10px 0 8px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 118, 191, 0.65);
+  background: rgba(255, 45, 150, 0.16);
+  color: #ffd2ea;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.case-study-card h3 {
+  margin: 8px 0;
+  font-size: 1.15rem;
+}
+
+.case-study-card p {
+  margin-top: 0;
+  color: var(--muted);
+}
+
+.case-study-meta {
+  font-size: 0.92rem;
+  color: #f5c5de;
+  margin-bottom: 8px;
+}
+
+.case-study-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.case-study-links a {
+  color: var(--pink-soft);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.case-study-links a:hover,
+.case-study-links a:focus-visible {
+  text-decoration: underline;
+}
+
+.case-study-note {
+  font-size: 0.88rem;
+  color: #efbdd6;
+  border: 1px dashed rgba(255, 118, 191, 0.55);
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+
 .site-footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
+}
+
+.site-footer .hero-actions {
+  justify-content: center;
 }
 
 .reveal {
@@ -375,6 +484,7 @@ a {
 
 @media (max-width: 900px) {
   .about-layout,
+  .case-study-grid,
   .project-grid,
   .stats {
     grid-template-columns: 1fr;
