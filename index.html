@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delali | Portfolio</title>
+  <meta name="description" content="Digital portfolio for Delali featuring projects, GitHub links, and a modern cyber aesthetic." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-one" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home">DELALI</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">Menu</button>
+    <nav id="primary-nav" class="nav-links" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <p class="eyebrow">DIGITAL PORTFOLIO</p>
+      <h1>
+        Hi, I am <span class="name-highlight">Delali</span>.
+        <span class="typed-wrap">I create <span id="typed-text" aria-live="polite"></span><span class="cursor" aria-hidden="true">|</span></span>
+      </h1>
+      <p class="hero-copy">
+        A classy, feminine cyber-space for code, creativity, and projects that blend personality with clean technical execution.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-ghost" href="#about">About Me</a>
+      </div>
+
+      <div class="stats" role="list" aria-label="Quick highlights">
+        <article class="stat-card" role="listitem">
+          <p class="stat-label">Focus</p>
+          <p class="stat-value">Frontend + UI</p>
+        </article>
+        <article class="stat-card" role="listitem">
+          <p class="stat-label">Stack</p>
+          <p class="stat-value">HTML / CSS / JS</p>
+        </article>
+        <article class="stat-card" role="listitem">
+          <p class="stat-label">Vibe</p>
+          <p class="stat-value">Modern Cyber Femme</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-head">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Who I Am</h2>
+      </div>
+      <div class="about-layout reveal">
+        <article class="glass-card">
+          <p>
+            I am a developer who loves expressive interfaces, thoughtful details, and making digital experiences feel confident and welcoming.
+            This portfolio is designed to be equal parts sleek, playful, and professional.
+          </p>
+          <p>
+            I build with a user-first mindset and focus on clear interactions, smooth motion, and clean architecture.
+          </p>
+        </article>
+        <aside class="glass-card about-tags" aria-label="Core strengths">
+          <p class="tag">UI Storytelling</p>
+          <p class="tag">Responsive Layouts</p>
+          <p class="tag">Animation & Interaction</p>
+          <p class="tag">Clean Code Structure</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-head">
+        <p class="eyebrow">PROJECTS</p>
+        <h2>Featured Work</h2>
+      </div>
+      <p class="section-copy reveal">Project wording can be updated later. Each card includes a GitHub placeholder link and short description slot.</p>
+
+      <div class="project-grid">
+        <article class="project-card reveal" data-tilt>
+          <p class="project-number">01</p>
+          <h3>Project Title Placeholder</h3>
+          <p>Description will be added later.</p>
+          <a href="#" target="_blank" rel="noreferrer noopener">GitHub Link</a>
+        </article>
+
+        <article class="project-card reveal" data-tilt>
+          <p class="project-number">02</p>
+          <h3>Project Title Placeholder</h3>
+          <p>Description will be added later.</p>
+          <a href="#" target="_blank" rel="noreferrer noopener">GitHub Link</a>
+        </article>
+
+        <article class="project-card reveal" data-tilt>
+          <p class="project-number">03</p>
+          <h3>Project Title Placeholder</h3>
+          <p>Description will be added later.</p>
+          <a href="#" target="_blank" rel="noreferrer noopener">GitHub Link</a>
+        </article>
+
+        <article class="project-card reveal" data-tilt>
+          <p class="project-number">04</p>
+          <h3>Project Title Placeholder</h3>
+          <p>Description will be added later.</p>
+          <a href="#" target="_blank" rel="noreferrer noopener">GitHub Link</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer section">
+    <p class="eyebrow">CONNECT</p>
+    <h2>GitHub and Contact</h2>
+    <p>Replace this with your preferred GitHub profile link and contact details.</p>
+    <a class="btn btn-primary" href="#" target="_blank" rel="noreferrer noopener">My GitHub</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
