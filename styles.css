@@ -359,6 +359,50 @@ a {
   padding-top: clamp(1.5rem, 4vw, 2.8rem);
 }
 
+.certifications {
+  padding-top: clamp(1.5rem, 4vw, 2.8rem);
+}
+
+.cert-grid {
+  margin-top: 1.4rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.cert-card {
+  background:
+    linear-gradient(160deg, rgba(18, 10, 20, 0.96), rgba(10, 7, 12, 0.96)),
+    radial-gradient(circle at 84% 10%, rgba(255, 118, 191, 0.12), transparent 42%);
+  border: 1px solid rgba(255, 118, 191, 0.42);
+  border-radius: 20px;
+  padding: 1.2rem;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3);
+}
+
+.cert-number {
+  margin: 0;
+  color: var(--pink-soft);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.cert-card h3 {
+  margin: 8px 0;
+  font-size: 1.12rem;
+}
+
+.cert-card p {
+  margin-top: 0;
+  color: var(--muted);
+}
+
+.cert-meta {
+  font-size: 0.92rem;
+  color: #f5c5de;
+  margin-bottom: 8px;
+}
+
 .case-study-grid {
   margin-top: 1.4rem;
   display: grid;
