@@ -41,6 +41,9 @@ On-page section IDs used for navigation:
 2. Lotus Notes Web App
 3. Digitra Calc
 4. Explore Togo
+5. Roast & Bloom
+6. Lume
+7. Hope Rise
 
 Each project card can include:
 - GitHub link
@@ -72,6 +75,12 @@ Each case study card can include:
 - Digitra Calc Repo: https://github.com/delali-6/Digitra-Calc.git
 - Digitra Calc Demo: https://delali-6.github.io/Digitra-Calc/
 - Explore Togo Repo: https://github.com/delali-6/ExploreTogo.git
+- Roast & Bloom Repo: https://github.com/delali-6/Aura-Nova-Templates/blob/main/coffee/roast-and-bloom/index.html
+- Roast & Bloom Demo: No public live URL yet (portfolio uses screenshot preview)
+- Lume Repo: https://github.com/delali-6/Aura-Nova-Templates/blob/main/clothing/lume/index.html
+- Lume Demo: No public live URL yet (portfolio uses screenshot preview)
+- Hope Rise Repo: https://github.com/delali-6/Aura-Nova-Templates/blob/main/charity/hope-rise/index.html
+- Hope Rise Demo: No public live URL yet (portfolio uses screenshot preview)
 
 ### Case Study Links
 - D4 Music Festival (Wix): https://5274207.wixsite.com/d4musicfestival

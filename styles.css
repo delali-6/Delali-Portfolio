@@ -319,6 +319,43 @@ a {
   font-size: 1.2rem;
 }
 
+.video-preview-badge {
+  display: inline-block;
+  margin: 8px 0 2px;
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffeaf7;
+  border: 1px solid rgba(255, 45, 150, 0.85);
+  border-radius: 999px;
+  padding: 4px 10px;
+  background: rgba(255, 45, 150, 0.22);
+}
+
+.template-type-badge {
+  display: inline-block;
+  margin: 10px 0 2px;
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffd9ec;
+  border: 1px solid rgba(255, 118, 191, 0.58);
+  border-radius: 999px;
+  padding: 4px 10px;
+  background: rgba(255, 118, 191, 0.14);
+}
+
+.project-preview {
+  width: 100%;
+  height: clamp(240px, 28vw, 360px);
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 118, 191, 0.5);
+  margin: 10px 0 14px;
+  display: block;
+}
+
 .project-card p {
   margin-top: 0;
   color: var(--muted);
